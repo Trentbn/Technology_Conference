@@ -340,7 +340,7 @@ header span {
 header p {
   margin: 0;
   font-size: 0.8rem;
-  color: #777;
+  color: rgb(61, 61, 61);
 }
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
@@ -392,7 +392,7 @@ nav ul li a {
   border-bottom: 1px solid #ccc;
 }
 nav ul li.active a {
-  color: #ff5385;
+  color: #9E002D;
 }
 
 nav ul.open {
@@ -403,12 +403,12 @@ nav ul.open {
 main h1 {
   padding: 1rem 10px 0.5rem 10px;
   font-size: 1.5rem;
-  color: #ff5385;
+  color: #9E002D;
   font-weight: 300;
 }
 main p {
   padding: 0.5rem 10px;
-  color: #333;
+  color: rgb(24, 24, 24);
   line-height: 150%;
 }
 

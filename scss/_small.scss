@@ -37,7 +37,7 @@ header {
     p {
         margin: 0;
         font-size: .8rem;
-        color: #777;
+        color: rgb(61, 61, 61);
     }
 } // end header
 
@@ -121,7 +121,7 @@ main {
     }
     p {
         padding: .5rem $gutter;
-        color: #333;
+        color: rgb(24, 24, 24);
         line-height: $leading;
     }
 }// end main
