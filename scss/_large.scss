@@ -1,0 +1,29 @@
+header, nav, main {
+    max-width: 960px;
+    margin: auto;
+}
+
+/* NAVIGATION STUFF GOES HERE  */
+
+
+#primaryNav {justify-content: end;}
+
+#cardsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.hero {
+
+    div {
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        color: white;
+        background: linear-gradient(180deg,rgba(0, 0, 0, .4) 50%, rgba(0, 0, 0, 0) 100%);
+        padding: 2rem;
+        text-align: center;
+    }
+
+}
