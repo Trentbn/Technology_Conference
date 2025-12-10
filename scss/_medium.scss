@@ -1,21 +1,45 @@
 /* NAVIGATION STUFF GOES HERE  */
-#hamburgerBtn {
-    display: none;
+    #navWrapper {
+    position: relative;
 }
 
-#primaryNav {display: flex;}
-
 nav {
+    position: absolute;
+    z-index: 10000;
+    top: 0;
+    right: 0;
+    background-color: white;
+
+
     ul li a {
         border: none;
         font-size: .85rem;
         font-weight: $normalWeight;
         padding: .5rem 1.2rem;
         transition: background 0.3s linear;
+        text-align: end;
     }
 
     ul li a:hover {
         background-color: $primaryColor;
         color: white;
+    }
+}
+
+
+
+
+.hero {
+    div {
+        text-align: start;
+    }
+}
+
+#cardsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .card {
+        flex-basis: 35%;
     }
 }

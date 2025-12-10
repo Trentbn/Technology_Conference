@@ -3,25 +3,41 @@ header, nav, main {
     margin: auto;
 }
 
+    #navWrapper {
+    position: relative;
+    height: 50px;
+}
+nav {
+    background-color: white;
+}
+
+
 /* NAVIGATION STUFF GOES HERE  */
+#hamburgerBtn {
+    display: none;
+}
+
+#primaryNav {display: flex;}
 
 
 #primaryNav {justify-content: end;}
 
 #cardsWrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
+    .card {
+        flex-basis: 18%;
+        margin: 1rem;
+    }
 }
 
 .hero {
 
     div {
-        top: 0px;
+        top: 70%;
+        bottom: 0px;
         left: 0px;
         right: 0px;
         color: white;
-        background: linear-gradient(180deg,rgba(0, 0, 0, .4) 50%, rgba(0, 0, 0, 0) 100%);
+        background: linear-gradient(360deg,rgba(0, 0, 0, .4) 50%, rgba(0, 0, 0, 0) 100%);
         padding: 2rem;
         text-align: center;
     }
